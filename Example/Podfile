@@ -5,3 +5,4 @@ target 'DMSConverter', :exclusive => true do
   pod 'Specta', '~> 0.2.1'
   pod 'Expecta'
 end
+link_with ['DMSConverter', 'DMSConverterTests']
